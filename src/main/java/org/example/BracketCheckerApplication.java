@@ -44,7 +44,11 @@ public class BracketCheckerApplication {
      * Inner class representing a request object with the text to check.
      */
     public static class RequestPayload {
-        private String text;
+        private final String text;
+
+        public RequestPayload(String text) {
+            this.text = text;
+        }
 
         public String getText() {
             return text;

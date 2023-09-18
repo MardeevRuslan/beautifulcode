@@ -1,6 +1,5 @@
 package org.example;
 
-import static java.lang.Thread.sleep;
 
 public class Hello {
     public Hello() {

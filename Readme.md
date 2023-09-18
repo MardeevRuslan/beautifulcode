@@ -5,15 +5,14 @@ This application checks if the brackets in a given text are balanced and if ther
 ## Deployment Instructions
 
 1. Clone the repository:
-shell git clone https://github.com/MardeevRuslan/beautifulcode
+  shell git clone https://github.com/MardeevRuslan/beautifulcode
 2. Navigate to the project directory: 
-shell cd bracket-checker
+  shell cd beautifulcode
 3. Build the application: 
-shell ./gradlew build
-4. Run the application: 
-shell ./gradlew bootRun
+  The application will start running on `http://localhost:8080`.
 
-   The application will start running on `http://localhost:8080`.
+
+   
 
 ## API Endpoint
 
@@ -37,4 +36,4 @@ You can use cURL to send a POST request to the API endpoint of the bracket check
 ```shell curl -X POST -H "Content-Type: application/json" -d '{"text": "Example text"}' http://localhost:8080/api/checkBrackets ```
 ## License
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Please refer to the [official MIT website](https://opensource.org/licenses/MIT) for more information about the rights and limitations of this license.
+This project is licensed under the [MIT License](LICENSE). Please refer to the [official MIT website](https://opensource.org/licenses/MIT) for more information about the rights and limitations of this license.
