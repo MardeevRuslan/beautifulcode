@@ -5,7 +5,7 @@ This application checks if the brackets in a given text are balanced and if ther
 ## Deployment Instructions
 
 1. Clone the repository:
-shell git clone https://github.com/example/bracket-checker.git
+shell git clone https://github.com/MardeevRuslan/beautifulcode
 2. Navigate to the project directory: 
 shell cd bracket-checker
 3. Build the application: 
