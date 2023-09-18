@@ -73,13 +73,13 @@ public class BracketCheckerApplication {
             if (c == '(') {
                 stack.push(c);
             } else if (c == ')') {
-                if (stack.isEmpty() || stack.peek() != '(') {
+                if (stack.empty() || stack.peek() != '(') {
                     return false;
                 }
                 stack.pop();
             }
         }
-        return stack.isEmpty();
+        return stack.empty();
     }
 
     /**
