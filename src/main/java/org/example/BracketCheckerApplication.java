@@ -46,9 +46,14 @@ public class BracketCheckerApplication {
     public static class RequestPayload {
         private final String text;
 
+        public RequestPayload() {
+            this.text = "";
+        }
+
         public RequestPayload(String text) {
             this.text = text;
         }
+
 
         public String getText() {
             return text;

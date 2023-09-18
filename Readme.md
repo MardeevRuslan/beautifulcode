@@ -1,15 +1,22 @@
 # Bracket Checker Application
 
-This application checks if the brackets in a given text are balanced and if there is text inside brackets.
+This application checks if the brackets in a given text are balanced and if there is text inside brackets. Maven build system.
 
 ## Deployment Instructions
 
 1. Clone the repository:
-  shell git clone https://github.com/MardeevRuslan/beautifulcode
+  - shell git clone https://github.com/MardeevRuslan/beautifulcode
 2. Navigate to the project directory: 
-  shell cd beautifulcode
+  - shell cd beautifulcode
 3. Build the application: 
-  The application will start running on `http://localhost:8080`.
+  - shell mvn install
+4. Launch a project:
+  - shell java -jar target/beautifulcode-1.0-SNAPSHOT.jar
+  - The application will start running on `http://localhost:8080`.
+5. Run tests:
+  - shell mvn test
+6. Delete executable files:
+  - shell mvn clean
 
 
    
